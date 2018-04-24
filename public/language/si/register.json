@@ -1,0 +1,23 @@
+{
+    "register": "ලියාපදිංචි වෙන්න",
+    "cancel_registration": "Cancel Registration",
+    "help.email": "පෙර සැකසුම මඟින්, ඔබගේ විද්යුත් තැපැල් ලිපිනය ප්‍රසිද්ධ කර නොමැත.",
+    "help.username_restrictions": "A unique username between %1 and %2 characters. Others can mention you with @<span id='yourUsername'>username</span>.",
+    "help.minimum_password_length": "ඔබගේ මුර පදයයේ දිග අවම වශයෙන් චරිත %1ක් විය යුතුයි.",
+    "email_address": "විද්යුත් තැපැල් ලිපිනය",
+    "email_address_placeholder": "විද්යුත් තැපැල් ලිපිනය ඇතුලත් කරන්න",
+    "username": "පරිශීලක නාමය",
+    "username_placeholder": "පරිශීලක නාමය ඇතුලත් කරන්න",
+    "password": "මුරපදය",
+    "password_placeholder": "Enter Password",
+    "confirm_password": "මුරපදය තහවුරු කරන්න",
+    "confirm_password_placeholder": "මුරපදය තහවුරු කරන්න",
+    "register_now_button": "දැන් ලියාපදිංචි වෙන්න",
+    "alternative_registration": "ඇතුල් වෙන්න විකල්ප ක්‍රම",
+    "terms_of_use": "භාවිත නියම",
+    "agree_to_terms_of_use": "මම භාවිත නියම එකඟ වෙමි",
+    "terms_of_use_error": "You must agree to the Terms of Use",
+    "registration-added-to-queue": "Your registration has been added to the approval queue. You will receive an email when it is accepted by an administrator.",
+    "interstitial.intro": "We require some additional information before we can create your account.",
+    "interstitial.errors-found": "We could not complete your registration:"
+}

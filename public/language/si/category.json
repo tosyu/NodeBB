@@ -1,0 +1,20 @@
+{
+    "category": "Category",
+    "subcategories": "Subcategories",
+    "new_topic_button": "අලුත් මාතෘකාවක්",
+    "guest-login-post": "පල කිරීමට ඇතුලු වන්න",
+    "no_topics": "<strong>මෙහි කිසිවක් පල කර නොමැත.</strong><br />ඔබ එකක් පල කරන්න",
+    "browsing": "නරඹමින්",
+    "no_replies": "කවුරුවත් පිලිතුරු දී නොමැත",
+    "no_new_posts": "No new posts.",
+    "share_this_category": "මෙම ප්‍රවර්ගය බෙදාගන්න",
+    "watch": "බලන්න",
+    "ignore": "නොසලකා හරින්න",
+    "watching": "Watching",
+    "ignoring": "Ignoring",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "Watched categories"
+}

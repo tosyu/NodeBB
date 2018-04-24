@@ -1,0 +1,20 @@
+{
+    "category": "Categoría",
+    "subcategories": "Subcategorías",
+    "new_topic_button": "Nuevo tema",
+    "guest-login-post": "Encetar sesión ta publicar",
+    "no_topics": "<strong>No i hai temas en ista categoría.</strong><br />Por qué no prebas a publicar un?",
+    "browsing": "navegando",
+    "no_replies": "Dengún ha publicau",
+    "no_new_posts": "No i hai nuevos temas",
+    "share_this_category": "Compartir ista categoría",
+    "watch": "Veyer",
+    "ignore": "Ignorar",
+    "watching": "Watching",
+    "ignoring": "Ignoring",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "Categorías vistas"
+}

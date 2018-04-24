@@ -1,0 +1,15 @@
+{
+    "title": "No llegit",
+    "no_unread_topics": "No hi han temes sense llegir.",
+    "load_more": "Carregar més",
+    "mark_as_read": "Marcar com a Llegit",
+    "selected": "Seleccionat",
+    "all": "Tot",
+    "all_categories": "Totes les categories",
+    "topics_marked_as_read.success": "Temes marcats com a llegits!",
+    "all-topics": "All Topics",
+    "new-topics": "New Topics",
+    "watched-topics": "Watched Topics",
+    "unreplied-topics": "Unreplied Topics",
+    "multiple-categories-selected": "Multiple Selected"
+}

@@ -4,15 +4,15 @@
 	"host": "host",
 	"pid": "pid",
 	"nodejs": "nodejs",
-	"online": "מקוון",
+	"online": "online",
 	"git": "git",
-	"memory": "זיכרון",
-	"load": "טען",
+	"memory": "memory",
+	"load": "load",
 	"uptime": "uptime",
 
-	"registered": "רשום",
+	"registered": "Registered",
 	"sockets": "Sockets",
-	"guests": "אורחים",
+	"guests": "Guests",
 
-	"info": "מידע"
+	"info": "Info"
 }

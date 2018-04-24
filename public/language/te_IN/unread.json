@@ -1,0 +1,15 @@
+{
+    "title": "చదవనివి",
+    "no_unread_topics": "చదవని ",
+    "load_more": "మరిన్ని లోడ్ చేయి",
+    "mark_as_read": "చదివినట్లుగా మార్క్ చేయి",
+    "selected": "ఎంచుకున్నవి",
+    "all": "అన్ని",
+    "all_categories": "All categories",
+    "topics_marked_as_read.success": "చదివినట్లుగా మార్క్ చేసిన టాపిక్స్",
+    "all-topics": "All Topics",
+    "new-topics": "New Topics",
+    "watched-topics": "Watched Topics",
+    "unreplied-topics": "Unreplied Topics",
+    "multiple-categories-selected": "Multiple Selected"
+}

@@ -1,0 +1,20 @@
+{
+    "category": "კატეგორია",
+    "subcategories": "ქვეკატეგორია",
+    "new_topic_button": "ახალი თემა",
+    "guest-login-post": "დაპოსტისთვის საჭიროა აუტენტიფიკაცია",
+    "no_topics": "<strong>კატეგორია არ შეიცავს არცერთ თემას</strong><br />იყავი პირველი",
+    "browsing": "browsing",
+    "no_replies": "No one has replied",
+    "no_new_posts": "No new posts.",
+    "share_this_category": "Share this category",
+    "watch": "ყურება",
+    "ignore": "იგნორი",
+    "watching": "უყურებს",
+    "ignoring": "მიმდინარეობს იგნორირება",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "კატეგორიის ყურება"
+}

@@ -1,0 +1,20 @@
+{
+    "category": "Category",
+    "subcategories": "Subcategories",
+    "new_topic_button": "Pwnc Newydd",
+    "guest-login-post": "Mewngofnodwch i greu pwnc",
+    "no_topics": "<strong>Does dim pwnciau yn a categori yma.</strong> Dylech chi treio postio un.",
+    "browsing": "pori",
+    "no_replies": "Does neb wedi ateb",
+    "no_new_posts": "No new posts.",
+    "share_this_category": "Rhannu y categori yma",
+    "watch": "Gwylio",
+    "ignore": "Anwybyddu",
+    "watching": "Watching",
+    "ignoring": "Ignoring",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "Watched categories"
+}

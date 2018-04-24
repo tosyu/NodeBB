@@ -1,0 +1,15 @@
+{
+    "title": "නොකියවූ",
+    "no_unread_topics": "නොකියවූ මාතෘකා නැත.",
+    "load_more": "තවත්",
+    "mark_as_read": "කියවූ ලෙස ලකුණු කරන්න",
+    "selected": "තෝරාගත්",
+    "all": "සියලුම",
+    "all_categories": "සියලු ප්‍රවර්ග",
+    "topics_marked_as_read.success": "මාතෘකා කියවූ ලෙස ලකුණු කරන ලදි!",
+    "all-topics": "All Topics",
+    "new-topics": "New Topics",
+    "watched-topics": "Watched Topics",
+    "unreplied-topics": "Unreplied Topics",
+    "multiple-categories-selected": "Multiple Selected"
+}

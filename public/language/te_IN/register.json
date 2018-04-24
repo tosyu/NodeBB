@@ -1,0 +1,23 @@
+{
+    "register": "నమోదు",
+    "cancel_registration": "నమోదు రద్దు",
+    "help.email": "అప్రమేయంగా, మీ ఇమెయిల్ ప్రజల నుండి దాగి ఉంటుంది.",
+    "help.username_restrictions": "% 1 మరియు% 2 అక్షరాలు మధ్య ప్రత్యేక యూజర్పేరు. ఇతరులు మిమ్మల్ని @<span id='yourUsername'>username</span> తో పేర్కొనగలరు",
+    "help.minimum_password_length": "మీ పాస్వర్డ్ కనీసం %1 అక్షరాల పొడవు ఉండాలి",
+    "email_address": "ఇమెయిల్ అడ్రస్",
+    "email_address_placeholder": "ఇమెయిల్ చిరునామా ఎంటర్ చేయి",
+    "username": "యూజర్పేరు ఎంటర్ చేయి",
+    "username_placeholder": "యూజర్పేరు ఎంటర్ చేయి",
+    "password": "పాస్వర్డ్",
+    "password_placeholder": "పాస్వర్డ్ ఎంటర్ చేయి",
+    "confirm_password": "పాస్వర్డ్ నిర్ధారించండి",
+    "confirm_password_placeholder": "పాస్వర్డ్ నిర్ధారించండి",
+    "register_now_button": "నమోదు కండి",
+    "alternative_registration": "ప్రత్యామ్నాయ నమోదు",
+    "terms_of_use": "ఉపయోగ నిబంధనలు",
+    "agree_to_terms_of_use": "వాడుక యొక్క నిబంధనలు అంగీకరిస్తున్నారు",
+    "terms_of_use_error": "మీరు ఉపయోగ నిబంధనలను అంగీకరించాలి",
+    "registration-added-to-queue": "మీ నమోదు ఆమోదం వరుసకు జోడించబడింది. నిర్వాహకుడిచే ఆమోదించబడినప్పుడు మీరు ఇమెయిల్ అందుకుంటారు.",
+    "interstitial.intro": "మేము మీ ఖాతాను సృష్టించే ముందు మాకు అదనపు సమాచారం అవసరం.",
+    "interstitial.errors-found": "మేము మీ నమోదును పూర్తి చేయలేకపోయాము"
+}
