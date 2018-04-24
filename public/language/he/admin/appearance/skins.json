@@ -1,9 +1,9 @@
 {
-	"loading": "טוען סקין...",
+	"loading": "Loading Skins...",
 	"homepage": "דף הבית",
-	"select-skin": "סקין נבחר",
-	"current-skin": "סקין נוכחי",
-	"skin-updated": "סקין מעודכן",
+	"select-skin": "Select Skin",
+	"current-skin": "Current Skin",
+	"skin-updated": "Skin Updated",
 	"applied-success": "%1 skin was succesfully applied",
 	"revert-success": "Skin reverted to base colours"
 }

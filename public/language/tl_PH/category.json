@@ -1,0 +1,20 @@
+{
+    "category": "Kategorya",
+    "subcategories": "Subcategories",
+    "new_topic_button": "Bagong Paksa",
+    "guest-login-post": "Mag log-in para maka pag post",
+    "no_topics": "Walang usapan ang nasa kategorya na ito, bakit ayaw mo subukan?",
+    "browsing": "browsing",
+    "no_replies": "Wala pang nag re-reply",
+    "no_new_posts": "Wala pang bagong post.",
+    "share_this_category": "I-Share itong kategorya",
+    "watch": "Panoorin",
+    "ignore": "Wag pansinin",
+    "watching": "Watching",
+    "ignoring": "Ignoring",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "Watched categories"
+}

@@ -1,0 +1,12 @@
+{
+    "username-email": "පරිශීලක නාමය/විද්යුත් තැපැල්",
+    "username": "පරිශීලක නාමය",
+    "email": "විද්යුත් තැපැල්",
+    "remember_me": "මාව මතක ද?",
+    "forgot_password": "මුරපදය අමතක වුණා ද?",
+    "alternative_logins": "ඇතුල් වෙන්න විකල්ප ක්‍රම",
+    "failed_login_attempt": "Login Unsuccessful",
+    "login_successful": "ඔබ සාර්ථකව ඇතුල් වී ඇත!",
+    "dont_have_account": "ඔබ හට ගිණුමක් නොමැතිද?",
+    "logged-out-due-to-inactivity": "You have been logged out of the Admin Control Panel due to inactivity"
+}

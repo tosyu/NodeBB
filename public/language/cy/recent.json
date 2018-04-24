@@ -1,0 +1,19 @@
+{
+    "title": "Diweddar",
+    "day": "Diwrnod",
+    "week": "Wythnos",
+    "month": "Mis",
+    "year": "Blwyddyn",
+    "alltime": "Holl Amser",
+    "no_recent_topics": "Does dim pynciau diweddar",
+    "no_popular_topics": "Does dim pynciau poblogaidd.",
+    "there-is-a-new-topic": "Mae yna pwnc newydd.",
+    "there-is-a-new-topic-and-a-new-post": "Mae yna pwnc a post newydd.",
+    "there-is-a-new-topic-and-new-posts": "Mae yna pwnc newydd a %1 post newydd.",
+    "there-are-new-topics": "Mae yna %1 pwnc newydd.",
+    "there-are-new-topics-and-a-new-post": "Mae yna %1 pwnc newydd a post newydd.",
+    "there-are-new-topics-and-new-posts": "Mae yna %1 pwnc newydd a %2 post newydd.",
+    "there-is-a-new-post": "Mae yna post newydd.",
+    "there-are-new-posts": "Mae yna %1 post newydd.",
+    "click-here-to-reload": "Cliciwch yma i ail-lwytho."
+}

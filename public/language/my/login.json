@@ -1,0 +1,12 @@
+{
+    "username-email": "အကောင့်အမည် / အီးမေးလ်",
+    "username": "အကောင့်အမည်",
+    "email": "အီးမေးလ်",
+    "remember_me": "ကျွန်ုပ်ကို မမှတ်မိဘူးလား။",
+    "forgot_password": "စကားဝှက်ကို မေ့နေပါသလား။",
+    "alternative_logins": "မခြားနည်းဖြင့် Log in ဝင်ရန်",
+    "failed_login_attempt": "Login Unsuccessful",
+    "login_successful": "သင်သည် အောင်မြင်စွာ Log in ဝင်ရောက်ပြီးဖြစ်သည်!",
+    "dont_have_account": "အကောင့်မရှိဘူးလား။",
+    "logged-out-due-to-inactivity": "You have been logged out of the Admin Control Panel due to inactivity"
+}

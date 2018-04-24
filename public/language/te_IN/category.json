@@ -1,0 +1,20 @@
+{
+    "category": "Category",
+    "subcategories": "Subcategories",
+    "new_topic_button": "కొత్త టాపిక్",
+    "guest-login-post": "Log in to post",
+    "no_topics": "<strong>ఈ కేటగరీ లో పోస్ట్లు లేవు.</strong><br />ఒకటి పోస్ట్ చేయడానికి ప్రయత్నించండి.",
+    "browsing": "బ్రౌజింగ్",
+    "no_replies": "ఎవరూ బదులివ్వలేదు",
+    "no_new_posts": "No new posts.",
+    "share_this_category": "ఈ కేటగరీ ని షేర్ చెయ్యoడి",
+    "watch": "చూస్తూ ఉండు",
+    "ignore": "విస్మరించు",
+    "watching": "Watching",
+    "ignoring": "Ignoring",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "Watched categories"
+}

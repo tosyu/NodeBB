@@ -1,0 +1,12 @@
+{
+    "username-email": "Dynodwr / Ebost",
+    "username": "Dynodwr",
+    "email": "Ebost",
+    "remember_me": "Cofio fi?",
+    "forgot_password": "Wedi anghofio cyfrinair?",
+    "alternative_logins": "Dulliau eraill o fewngofnodi",
+    "failed_login_attempt": "Login Unsuccessful",
+    "login_successful": "Rydych wedi mewngofnodi yn llwyddiannus!",
+    "dont_have_account": "Dim cyfrif gennych?",
+    "logged-out-due-to-inactivity": "You have been logged out of the Admin Control Panel due to inactivity"
+}

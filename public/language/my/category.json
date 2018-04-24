@@ -1,0 +1,20 @@
+{
+    "category": "ကဏ္ဍ",
+    "subcategories": "ကဏ္ဍခွဲများ",
+    "new_topic_button": "အကြောင်းအရာသစ်",
+    "guest-login-post": "စာစုတင်ရန် Log in လုပ်ပါ",
+    "no_topics": "<strong>ဤကဏ္ဍအတွက် အကြောင်းအရာများ မရှိသေးပါ။</strong><br />\nစာစုတစ်ခုတင်ဖို့ကြိုးစားကြည့်ပါ။",
+    "browsing": "ရှာဖွေနေသည်",
+    "no_replies": "ဘယ်သူမှ အကြောင်းမပြန်ပါ",
+    "no_new_posts": "စာစုအသစ် မရှိပါ။",
+    "share_this_category": "ဤအမျိုးအစားကို မျှဝေပါ",
+    "watch": "စောင့်ကြည့်",
+    "ignore": "လျစ်လျူရှု",
+    "watching": "Watching",
+    "ignoring": "Ignoring",
+    "watching.description": "Show topics in unread",
+    "ignoring.description": "Do not show topics in unread",
+    "watch.message": "You are now watching updates from this category and all subcategories",
+    "ignore.message": "You are now ignoring updates from this category and all subcategories",
+    "watched-categories": "ကြည့်ရှုခဲ့ပြီးသောကဏ္ဍများ"
+}

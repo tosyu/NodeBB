@@ -1,0 +1,12 @@
+{
+    "username-email": "Nombre d'usuario / correu electronico",
+    "username": "Nombre d'usuario",
+    "email": "Correu electronico",
+    "remember_me": "Recordar-me?",
+    "forgot_password": "Has ixuplidau a clau?",
+    "alternative_logins": "Alternative Logins",
+    "failed_login_attempt": "Encieto de sesión fracasau",
+    "login_successful": "T'has connectau correctament!",
+    "dont_have_account": "No tiens una cuenta?",
+    "logged-out-due-to-inactivity": "You have been logged out of the Admin Control Panel due to inactivity"
+}

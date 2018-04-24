@@ -1,0 +1,19 @@
+{
+    "title": "ఇటీవలి",
+    "day": "రోజు",
+    "week": "వారం",
+    "month": "నెల",
+    "year": "సంవత్సరం",
+    "alltime": "ఆల్ టైం",
+    "no_recent_topics": "ఇటీవలి టాపిక్స్ లేవు",
+    "no_popular_topics": "There are no popular topics.",
+    "there-is-a-new-topic": "ఒక కొత్త టాపిక్ ఉంది",
+    "there-is-a-new-topic-and-a-new-post": "ఒక కొత్త టాపిక్ మరియు ఒక కొత్త పోస్ట్ ఉన్నాయి",
+    "there-is-a-new-topic-and-new-posts": "ఒక కొత్త టాపిక్ మరియు %1 కొత్త పోస్ట్లు ఉన్నాయి",
+    "there-are-new-topics": "%1 కొత్త టాపిక్స్ ఉన్నాయి",
+    "there-are-new-topics-and-a-new-post": "%1 కొత్త టాపిక్స్ మరియు ఒక కొత్త పోస్ట్ ఉన్నాయి",
+    "there-are-new-topics-and-new-posts": "%1 కొత్త టాపిక్స్ మరియు %2 కొత్త పోస్ట్లు ఉన్నాయి",
+    "there-is-a-new-post": "ఒక కొత్త పోస్ట్ ఉంది",
+    "there-are-new-posts": "%1 కొత్త పోస్ట్లు ఉన్నాయి",
+    "click-here-to-reload": "రీలోడ్ చేయడానికి ఇక్కడ క్లిక్ చేయండి"
+}
