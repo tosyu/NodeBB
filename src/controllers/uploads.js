@@ -105,7 +105,26 @@ function resizeImage(fileObj, callback) {
 			image.size(fileObj.path, next);
 		},
 		function (imageData, next) {
-			if (imageData.width < (parseInt(meta.config.maximumImageWidth, 10) || 760)) {
+			fileObj.width = imageData.width;
+			fileObj.height = imageData.height;
+			next();
+		},
+		function (next) {
+			// quick fix for image orientation
+			// would use image.normalise but this changes the filename and
+			// extension and will brake regexp on frontend
+			// so the image is resampled with same dimensions and fixed
+			// orientation, depends on imagemagick plugin
+			image.resizeImage({
+				path: fileObj.path,
+				target: fileObj.path,
+				extension: path.extname(fileObj.path),
+				width: fileObj.width,
+				quality: 95,
+			}, next);
+		},
+		function (next) {
+			if (fileObj.width < (parseInt(meta.config.maximumImageWidth, 10) || 760)) {
 				return callback(null, fileObj);
 			}
 
