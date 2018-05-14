@@ -10,6 +10,7 @@ define('notifications', ['sounds', 'translator', 'components', 'navigator', 'ben
 		var notifContainer = components.get('notifications');
 		var notifTrigger = notifContainer.children('a');
 		var notifList = components.get('notifications/list');
+		var notifDropdownWrapper = notifTrigger.parents('.dropdown');
 
 		notifTrigger.on('click', function (e) {
 			e.preventDefault();
@@ -19,6 +20,10 @@ define('notifications', ['sounds', 'translator', 'components', 'navigator', 'ben
 
 			Notifications.loadNotifications(notifList);
 		});
+
+		if (notifDropdownWrapper.hasClass('open')) {
+			Notifications.loadNotifications(notifList);
+		}
 
 		notifList.on('click', '[data-nid]', function (ev) {
 			var notifEl = $(this);
@@ -70,7 +75,7 @@ define('notifications', ['sounds', 'translator', 'components', 'navigator', 'ben
 			var payload = {
 				alert_id: 'new_notif',
 				title: '[[notifications:new_notification]]',
-				timeout: 2000,
+				timeout: parseInt(config.notificationAlertTimeout, 10) || 5000,
 			};
 
 			if (notifData.path) {

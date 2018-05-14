@@ -18,6 +18,7 @@
     "invalid-username-or-password": "กรุณาระบุชื่อผู้ใช้และรหัสผ่าน",
     "invalid-search-term": "ข้อความค้นหาไม่ถูกต้อง",
     "invalid-url": "Invalid URL",
+    "local-login-disabled": "Local login system has been disabled for non-privileged accounts.",
     "csrf-invalid": "เราไม่สามารถนำท่านเข้าสู่ระบบได้ เหมือนกับว่าเซสชั่นหมดอายุแล้ว กรุณาลองใหม่อีกครั้ง",
     "invalid-pagination-value": "หมายเลขหน้าไม่ถูกต้อง จำเป็นต้องเป็นตัวเลขอย่างน้อย  %1  และอย่างมาก %2",
     "username-taken": "ชื่อผู้ใช้นี้มีการใช้แล้ว",
@@ -145,5 +146,7 @@
     "invalid-session": "เซสชั่นไม่ถูกต้อง",
     "invalid-session-text": "เหมือนกับว่าการเข้าสู่ระบบของคุณไม่ได้มีอยู่ในระบบ หรือไม่ก็ไม่ได้รับการตอบกลับจากเซิร์ฟเวอร์ กรุณารีเฟรชหน้าเว็บนี้",
     "no-topics-selected": "No topics selected!",
-    "cant-move-to-same-topic": "Can't move post to same topic!"
+    "cant-move-to-same-topic": "Can't move post to same topic!",
+    "cannot-block-self": "You cannot block yourself!",
+    "cannot-block-privileged": "You cannot block administrators or global moderators"
 }

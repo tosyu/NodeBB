@@ -53,6 +53,7 @@ apiController.loadConfig = function (req, callback) {
 	config.defaultLang = meta.config.defaultLang || 'en-GB';
 	config.userLang = req.query.lang ? validator.escape(String(req.query.lang)) : config.defaultLang;
 	config.loggedIn = !!req.user;
+	config.uid = req.uid;
 	config['cache-buster'] = meta.config['cache-buster'] || '';
 	config.requireEmailConfirmation = parseInt(meta.config.requireEmailConfirmation, 10) === 1;
 	config.topicPostSort = meta.config.topicPostSort || 'oldest_to_newest';
@@ -62,6 +63,7 @@ apiController.loadConfig = function (req, callback) {
 	config.bootswatchSkin = meta.config.bootswatchSkin || 'noskin';
 	config.defaultBootswatchSkin = meta.config.bootswatchSkin || 'noskin';
 	config.enablePostHistory = parseInt(meta.config.enablePostHistory || 1, 10) === 1;
+	config.notificationAlertTimeout = parseInt(meta.config.notificationAlertTimeout, 10) || 5000;
 
 	if (config.useOutgoingLinksPage) {
 		config.outgoingLinksWhitelist = meta.config['outgoingLinks:whitelist'];

@@ -18,6 +18,7 @@
     "invalid-username-or-password": "请确认用户名和密码",
     "invalid-search-term": "无效的搜索关键字",
     "invalid-url": "无效的 URL",
+    "local-login-disabled": "已禁用非管理账户的本地登录。",
     "csrf-invalid": "可能是由于会话过期，登录失败。请重试。",
     "invalid-pagination-value": "无效的分页数值，必须介于 %1 和 %2 之间",
     "username-taken": "此用户名已被占用",
@@ -145,5 +146,7 @@
     "invalid-session": "Session 无法匹配",
     "invalid-session-text": "您的登入状态已经失效，或者是与服务器信息不匹配。请刷新此页面。",
     "no-topics-selected": "没有主题被选中!",
-    "cant-move-to-same-topic": "无法将帖子移动到相同的主题中！"
+    "cant-move-to-same-topic": "无法将帖子移动到相同的主题中！",
+    "cannot-block-self": "You cannot block yourself!",
+    "cannot-block-privileged": "You cannot block administrators or global moderators"
 }
