@@ -2556,7 +2556,7 @@ output {
   padding: 8px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #272b30;
+  color: #000000;
   background-color: #ffffff;
   background-image: none;
   border: 1px solid #000000;
@@ -5862,6 +5862,7 @@ button.list-group-item-danger.active:focus {
 button.close {
   padding: 0;
   cursor: pointer;
+  color: #ffffff;
   background: transparent;
   border: 0;
   -webkit-appearance: none;
@@ -6767,8 +6768,8 @@ button.close {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 .navbar .navbar-nav > li > a {
-  border-right: 1px solid rgba(0, 0, 0, 0.2);
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 0px solid rgba(0, 0, 0, 0.2);
+  border-left: 0px solid rgba(255, 255, 255, 0.1);
 }
 .navbar .navbar-nav > li > a:hover {
   background-image: -webkit-linear-gradient(#020202, #101112 40%, #141618);
@@ -7265,4 +7266,60 @@ a.list-group-item-danger.active:focus {
 .panel-warning .panel-heading,
 .panel-info .panel-heading {
   border-color: #000;
+}
+.notification-list li.unread {
+  background-color: #272b2e !important;
+}
+.category>ul>li .tag-list .tag {
+  color: #a7a7a7 !important ;
+  background: #272b2e !important;
+}
+.composer {
+  background: #fff !important;
+}
+.composer .write {
+  background: #fff !important;
+  color: #000000 !important;
+  border: 1px solid #ededed !important;
+}
+.composer .preview {
+  background: #fff !important;
+  color: #000000 !important;
+  border: 1px solid #ededed !important;
+}
+.composer .resizer .trigger {
+  background: #333 !important;
+}
+a.plugin-mentions-group.plugin-mentions-a {
+  color: #337ab7 !important;
+}
+button.btn.btn-default.composer-discard {
+  background: #333 !important;
+}
+.chats-list {
+  border-top: 1px solid #333;
+}
+.chats-list>li {
+  position: relative;
+  clear: both;
+  list-style-type: none;
+  padding: .5em;
+  height: 80px;
+  cursor: pointer;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 0px solid;
+  border-color: #eee;
+}
+.header .chat-list>li:not(:last-child), .slideout-menu .chat-list>li:not(:last-child) {
+  border-bottom: 1px solid #333;
+}
+ul.chat-list.chats-list {
+  color: #c8c8c8 !important;
+}
+.header .chat-list>li:hover, .slideout-menu .chat-list>li:hover {
+  background: #272b30;
+}
+.chat-modal textarea.form-control {
+  color: #ffffff;
 }
