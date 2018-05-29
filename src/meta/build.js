@@ -50,9 +50,13 @@ var targetHandlers = {
 	'admin control panel styles': function (parallel, callback) {
 		meta.css.buildBundle('admin', parallel, callback);
 	},
+	'client side styles skins': function (parallel, callback) {
+		meta.css.copySkins(callback);
+	},
 	styles: [
 		'client side styles',
 		'admin control panel styles',
+		'client side styles skins',
 	],
 	templates: function (parallel, callback) {
 		meta.templates.compile(callback);
@@ -73,6 +77,9 @@ var aliases = {
 	javascript: ['js'],
 	'client side styles': [
 		'clientcss', 'clientless', 'clientstyles', 'clientstyle',
+	],
+	'client side styles skins': [
+		'clientskins'
 	],
 	'admin control panel styles': [
 		'admincss', 'adminless', 'adminstyles', 'adminstyle', 'acpcss', 'acpless', 'acpstyles', 'acpstyle',
