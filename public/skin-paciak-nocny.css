@@ -4579,11 +4579,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .navbar-default .btn-link {
-  color: #c8c8c8;
+  color: #c8c8c8 !important;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #ffffff;
+  color: #ffffff !important;
+  background-color: #272b30 !important; 
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -6767,10 +6768,6 @@ button.close {
   border: 1px solid rgba(0, 0, 0, 0.6);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
-.navbar .navbar-nav > li > a {
-  border-right: 0px solid rgba(0, 0, 0, 0.2);
-  border-left: 0px solid rgba(255, 255, 255, 0.1);
-}
 .navbar .navbar-nav > li > a:hover {
   background-image: -webkit-linear-gradient(#020202, #101112 40%, #141618);
   background-image: -o-linear-gradient(#020202, #101112 40%, #141618);
@@ -7306,9 +7303,6 @@ button.btn.btn-default.composer-discard {
   padding: .5em;
   height: 80px;
   cursor: pointer;
-  border-left: 0px solid;
-  border-right: 0px solid;
-  border-bottom: 0px solid;
   border-color: #eee;
 }
 .header .chat-list>li:not(:last-child), .slideout-menu .chat-list>li:not(:last-child) {
@@ -7323,3 +7317,11 @@ ul.chat-list.chats-list {
 .chat-modal textarea.form-control {
   color: #ffffff;
 }
+.fc td.fc-today {
+  background: #1d2024;
+}
+.cookie-consent {
+  background: #333 !important;
+  color: #fff !important;
+}
+
