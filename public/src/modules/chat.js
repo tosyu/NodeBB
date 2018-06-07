@@ -64,17 +64,17 @@ define('chat', [
 				ChatsMessages.appendChatMessage(modal.find('.chat-content'), data.message);
 
 				if (modal.is(':visible')) {
-					taskbar.updateActive(modal.attr('UUID'));
+					taskbar.updateActive(modal.attr('data-uuid'));
 					ChatsMessages.scrollToBottom(modal.find('.chat-content'));
 				} else if (!ajaxify.data.template.chats) {
-					module.toggleNew(modal.attr('UUID'), true, true);
+					module.toggleNew(modal.attr('data-uuid'), true, true);
 				}
 
 				if (!isSelf && (!modal.is(':visible') || !app.isFocused)) {
 					app.alternatingTitle('[[modules:chat.user_has_messaged_you, ' + username + ']]');
 					sounds.play('chat-incoming', 'chat.incoming:' + data.message.mid);
 
-					taskbar.push('chat', modal.attr('UUID'), {
+					taskbar.push('chat', modal.attr('data-uuid'), {
 						title: data.roomName || username,
 						touid: data.message.fromUser.uid,
 						roomId: data.roomId,
@@ -93,7 +93,7 @@ define('chat', [
 					roomData.silent = true;
 					roomData.uid = app.user.uid;
 					module.createModal(roomData, function (modal) {
-						module.toggleNew(modal.attr('UUID'), !isSelf, true);
+						module.toggleNew(modal.attr('data-uuid'), !isSelf, true);
 						if (!isSelf) {
 							app.alternatingTitle('[[modules:chat.user_has_messaged_you, ' + username + ']]');
 							sounds.play('chat-incoming', 'chat.incoming:' + data.message.mid);
@@ -112,7 +112,7 @@ define('chat', [
 			var newTitle = $('<div/>').html(data.newName).text();
 			var modal = module.getModal(data.roomId);
 			modal.find('[component="chat/room/name"]').text(newTitle);
-			taskbar.updateTitle('chat', modal.attr('UUID'), newTitle);
+			taskbar.updateTitle('chat', modal.attr('data-uuid'), newTitle);
 		});
 
 		ChatsMessages.onChatMessageEdit();
@@ -142,24 +142,6 @@ define('chat', [
 		});
 	};
 
-	module.bringModalToTop = function (chatModal) {
-		var topZ = 0;
-
-		taskbar.updateActive(chatModal.attr('UUID'));
-
-		if ($('.chat-modal').length === 1) {
-			return;
-		}
-		$('.chat-modal').each(function () {
-			var thisZ = parseInt($(this).css('zIndex'), 10);
-			if (thisZ > topZ) {
-				topZ = thisZ;
-			}
-		});
-
-		chatModal.css('zIndex', topZ + 1);
-	};
-
 	module.getModal = function (roomId) {
 		return $('#chat-modal-' + roomId);
 	};
@@ -176,9 +158,8 @@ define('chat', [
 			chatModal.attr('id', 'chat-modal-' + data.roomId);
 			chatModal.attr('data-roomid', data.roomId);
 			chatModal.attr('intervalId', 0);
-			chatModal.attr('UUID', uuid);
+			chatModal.attr('data-uuid', uuid);
 			chatModal.css('position', 'fixed');
-			chatModal.css('zIndex', 100);
 			chatModal.appendTo($('body'));
 			chatModal.find('.timeago').timeago();
 			module.center(chatModal);
@@ -200,7 +181,7 @@ define('chat', [
 
 				chatModal.draggable({
 					start: function () {
-						module.bringModalToTop(chatModal);
+						taskbar.updateActive(uuid);
 					},
 					stop: function () {
 						chatModal.find('#chat-message-input').focus();
@@ -234,7 +215,7 @@ define('chat', [
 			});
 
 			chatModal.on('click', function () {
-				module.bringModalToTop(chatModal);
+				taskbar.updateActive(this.getAttribute('data-uuid'));
 
 				if (dragged) {
 					dragged = false;
@@ -265,8 +246,9 @@ define('chat', [
 			Chats.addScrollHandler(chatModal.attr('data-roomid'), data.uid, chatModal.find('.chat-content'));
 
 			Chats.addCharactersLeftHandler(chatModal);
+			Chats.addIPHandler(chatModal);
 
-			taskbar.push('chat', chatModal.attr('UUID'), {
+			taskbar.push('chat', chatModal.attr('data-uuid'), {
 				title: data.roomName || (data.users.length ? data.users[0].username : ''),
 				roomId: data.roomId,
 				icon: 'fa-comment',
@@ -290,7 +272,7 @@ define('chat', [
 		chatModal.attr('intervalId', 0);
 		chatModal.remove();
 		chatModal.data('modal', null);
-		taskbar.discard('chat', chatModal.attr('UUID'));
+		taskbar.discard('chat', chatModal.attr('data-uuid'));
 
 		if (chatModal.attr('data-mobile')) {
 			module.disableMobileBehaviour(chatModal);
@@ -313,11 +295,10 @@ define('chat', [
 	};
 
 	module.load = function (uuid) {
-		var chatModal = $('div[UUID="' + uuid + '"]');
+		var chatModal = $('.chat-modal[data-uuid="' + uuid + '"]');
 		chatModal.removeClass('hide');
 		taskbar.updateActive(uuid);
 		ChatsMessages.scrollToBottom(chatModal.find('.chat-content'));
-		module.bringModalToTop(chatModal);
 		module.focusInput(chatModal);
 		socket.emit('modules.chats.markRead', chatModal.attr('data-roomid'));
 
@@ -348,7 +329,7 @@ define('chat', [
 	};
 
 	module.minimize = function (uuid) {
-		var chatModal = $('div[UUID="' + uuid + '"]');
+		var chatModal = $('.chat-modal[data-uuid="' + uuid + '"]');
 		chatModal.addClass('hide');
 		taskbar.minimize('chat', uuid);
 		clearInterval(chatModal.attr('intervalId'));

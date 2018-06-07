@@ -1,6 +1,6 @@
 {
     "chat.chatting_with": "Discuter avec",
-    "chat.placeholder": "Tapez votre message ici, appuyez sur Entrée pour envoyer",
+    "chat.placeholder": "Écrire ici pour envoyer votre message",
     "chat.send": "Envoyer",
     "chat.no_active": "Vous n'avez aucune discussion en cours.",
     "chat.user_typing": "%1 est en train d'écrire ...",
@@ -32,6 +32,7 @@
     "chat.leave-help": "Si vous quittez vous ne pourrez plus suivre la discussion. Si vous êtes de nouveau ajouté, vous ne verrez aucun historique de la discussion avant votre réintégration.",
     "chat.in-room": "Dans cet espace de discussion",
     "chat.kick": "Exclure",
+    "chat.show-ip": "Voir IP",
     "composer.compose": "Écrire",
     "composer.show_preview": "Afficher l'aperçu",
     "composer.hide_preview": "Masquer l'aperçu",
