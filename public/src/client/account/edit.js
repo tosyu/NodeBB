@@ -11,6 +11,7 @@ define('forum/account/edit', ['forum/account/header', 'translator', 'components'
 
 		app.loadJQueryUI(function () {
 			$('#inputBirthday').datepicker({
+                                dateFormat: 'dd/mm/yy',
 				changeMonth: true,
 				changeYear: true,
 				yearRange: '1900:-5y',
