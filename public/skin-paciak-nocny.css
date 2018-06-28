@@ -7272,26 +7272,48 @@ a.list-group-item-danger.active:focus {
   background: #272b2e !important;
 }
 .composer {
-  background: #fff !important;
+  background: #272b30;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.composer .title-container .title {
+  background: #e0e0e0 !important;
+  color: #52575c !important;
+  border: 1px solid #ccc !important;
 }
 .composer .write {
-  background: #fff !important;
-  color: #000000 !important;
-  border: 1px solid #ededed !important;
+  background: #e0e0e0 !important;
+  color: #52575c !important;
+  border: 1px solid #ccc !important;
 }
 .composer .preview {
-  background: #fff !important;
-  color: #000000 !important;
-  border: 1px solid #ededed !important;
+  background: #e0e0e0 !important;
+  color: #52575c !important;
+  border: 0px !important;
+}
+.composer .preview a {
+  color: #f44336
+}
+.composer .tags-container .bootstrap-tagsinput input {
+  background: #e0e0e0 !important;
+  color: #52575c !important;
+  border: 1px solid #ccc !important;
+}
+.bootstrap-tagsinput {
+  background: #e0e0e0 !important;
 }
 .composer .resizer .trigger {
-  background: #333 !important;
+  background: #272b30 !important;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.composer .formatting-bar .formatting-group li {
+  color: #e0e0e0;
+}
+.composer .formatting-bar .formatting-group li:focus, .composer .formatting-bar .formatting-group li:hover {
+  background: #e0e0e0 !important;
+  color: #000 !important;
 }
 a.plugin-mentions-group.plugin-mentions-a {
   color: #337ab7 !important;
-}
-button.btn.btn-default.composer-discard {
-  background: #333 !important;
 }
 .chats-list {
   border-top: 1px solid #333;
