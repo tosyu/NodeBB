@@ -7264,38 +7264,47 @@ a.list-group-item-danger.active:focus {
 .panel-info .panel-heading {
   border-color: #000;
 }
+.notification-list .text {
+  color: #aaa;
+}
 .notification-list li.unread {
   background-color: #272b2e !important;
 }
+.notification-list li.unread .text {
+  color: #fff;
+}
+.notification-list li.unread .mark-read {
+  color: #fff;
+}
 .category>ul>li .tag-list .tag {
   color: #a7a7a7 !important ;
-  background: #272b2e !important;
+  background: #3c4246 !important;
 }
 .composer {
-  background: #272b30;
+  background: #2e3338;
   border: 1px solid rgba(0, 0, 0, 0.6);
 }
 .composer .title-container .title {
-  background: #e0e0e0 !important;
-  color: #52575c !important;
+  background: #2e3338 !important;
+  color: #fff !important;
   border: 1px solid #ccc !important;
 }
 .composer .write {
-  background: #e0e0e0 !important;
-  color: #52575c !important;
+  background: #2e3338 !important;
+  color: #fff !important;
   border: 1px solid #ccc !important;
 }
 .composer .preview {
-  background: #e0e0e0 !important;
-  color: #52575c !important;
-  border: 0px !important;
+  background: #2e3338 !important;
+  color: #fff !important;
+  border: 1px solid #ccc !important;
 }
 .composer .preview a {
-  color: #f44336
+  color: #f44336;
 }
 .composer .tags-container .bootstrap-tagsinput input {
-  background: #e0e0e0 !important;
-  color: #52575c !important;
+  background: #2e3338 !important;
+  color: #fff !important;
   border: 1px solid #ccc !important;
 }
 .bootstrap-tagsinput {
@@ -7326,9 +7335,14 @@ a.plugin-mentions-group.plugin-mentions-a {
   height: 80px;
   cursor: pointer;
   border-color: #eee;
+  border-left: 0px solid;
+  border-right: 0px solid;
+  border-bottom: 1px solid;
 }
 .header .chat-list>li:not(:last-child), .slideout-menu .chat-list>li:not(:last-child) {
   border-bottom: 1px solid #333;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 ul.chat-list.chats-list {
   color: #c8c8c8 !important;
@@ -7339,6 +7353,16 @@ ul.chat-list.chats-list {
 .chat-modal textarea.form-control {
   color: #ffffff;
 }
+.chat-modal .chat-content li.chat-message .chat-user a {
+  color: #777;
+}
+.chat-modal .chat-content li.chat-message .chat-user a, .expanded-chat .chat-content li.chat-message .chat-user a {
+  color: #777;
+}
+.chats-list>.bg-info {
+  color: #272b30;
+  background-color: #c8c8c8 !important;
+}
 .fc td.fc-today {
   background: #1d2024;
 }
@@ -7346,4 +7370,23 @@ ul.chat-list.chats-list {
   background: #333 !important;
   color: #fff !important;
 }
-
+.category .category-item.highlight, .topic .topic-item.highlight {
+  background-color: #272b30 !important;
+}
+.account .profile .profile-meta strong {
+  color: #9e9e9e;
+}
+.profile-card-info .profile-meta strong {
+  color: #9e9e9e;
+}
+.categories-title {
+  color: #ccc !important;
+  font-weight: 500 !important;
+}
+.categories>p, .category>p, .subcategory>p {
+  color: #ccc !important;
+  font-weight: 500 !important;
+}
+.category>ul>li:not(.unread) h2 a {
+  color: #999;
+}
