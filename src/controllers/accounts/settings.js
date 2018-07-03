@@ -115,6 +115,7 @@ settingsController.get = function (req, res, callback) {
 				{ name: 'No skin', value: 'noskin' },
 				{ name: 'Paciak dzienny', value: 'paciak-dzienny' },
 				{ name: 'Paciak nocny', value: 'paciak-nocny' },
+                                { name: 'Paciak Darkly', value: 'paciak-darkly' },
 				{ name: 'Default', value: 'default' },
 				{ name: 'Cerulean', value: 'cerulean' },
 				{ name: 'Cosmo', value: 'cosmo'	},

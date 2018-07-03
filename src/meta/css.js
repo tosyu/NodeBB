@@ -15,7 +15,8 @@ var CSS = module.exports;
 
 var staticCssFiles = [
 	'public/skin-paciak-dzienny.css',
-	'public/skin-paciak-nocny.css'
+	'public/skin-paciak-nocny.css',
+        'public/skin-paciak-darkly.css'
 ];
 
 var buildImports = {
