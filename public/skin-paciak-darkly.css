@@ -1087,7 +1087,7 @@ html {
 }
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #ffffff;
   background-color: #222222;
@@ -7042,5 +7042,100 @@ a.list-group-item-danger.active:focus {
   color: #ffffff;
 }
 .panel-default > .panel-heading {
+  background-color: #464545;
+}
+.chats-list {
+    border-top: 1px solid #333;
+}
+.chats-list>li {
+    border-color: #333;
+    color: #eee;
+}
+.header .chat-list>li:hover, .slideout-menu .chat-list>li:hover {
+    background-color: #375a7f;
+    color: #fff;
+}
+.chat-modal .chat-content li.chat-message .chat-user a, .expanded-chat .chat-content li.chat-message .chat-user a {
+    color: #777;
+}
+.category>ul>li .tag-list .tag {
+    background-color: #375a7f;
+    color: #fff;
+}
+.topic [component="post/parent"] {
+    background-color: #375a7f;
+    color: #fff;
+}
+.topic [component="post/parent"].btn:hover {
+    background-color: #28415b !important;
+}
+.category .category-item.highlight, .topic .topic-item.highlight {
+    background-color: #222222;
+}
+.fc-unthemed td.fc-today {
+    background-color: #375a7f;
+}
+.header .notification-list li.unread, .slideout-menu .notification-list li.unread {
+    background-color: #375a7f;
+}
+.account .profile .profile-meta strong {
+    color: #00bc8c;
+}
+.profile .custom-field-item .field-label {
+    color: #777;
+}
+.profile .custom-field-item .field-value {
+    color: #00bc8c;
+    font-weight: bold;
+}
+.profile-card-info .profile-meta strong {
+    color: #00bc8c;
+}
+.profile-card-cover .card-fab .fab {
+    background-color: #337ab7;
+    color: #fff;
+}
+.dropdown-menu>li>form>.btn-link, .dropdown-menu>li>form>button {
+    color: #fff;
+}
+.dropdown-menu>li>form>.btn-link:focus, .dropdown-menu>li>form>.btn-link:hover, .dropdown-menu>li>form>button:focus, .dropdown-menu>li>form>button:hover {
+    background-color: #375a7f;
+    color: #fff;
+}
+.composer {
+    background-color: #222222;
+    border-top: 1px solid #375a7f;
+}
+.composer-submit {
+    background-color: #375a7f;
+}
+.composer .title-container .title {
+    background-color: #464545;
+    color: #fff;
+}
+.composer .write {
+    background-color: #464545;
+    color: #fff;
+}
+.composer .preview {
+    background-color: #464545;
+}
+.composer .formatting-bar .formatting-group li {
+    color: #fff;
+}
+.composer .formatting-bar .formatting-group li:focus, .composer .formatting-bar .formatting-group li:hover {
+    color: #00bc8c;
+    background-color: transparent;
+}
+.composer .bootstrap-tagsinput {
+    background-color: #464545;
+}
+.composer .tags-container .bootstrap-tagsinput input {
+    color: #fff;
+}
+.category>ul>li:not(.unread) h2 a {
+    color: #999;
+}
+.cookie-consent {
   background-color: #464545;
 }
