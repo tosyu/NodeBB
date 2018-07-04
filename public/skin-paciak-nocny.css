@@ -7265,10 +7265,10 @@ a.list-group-item-danger.active:focus {
   border-color: #000;
 }
 .notification-list .text {
-  color: #aaa;
+  color: #888;
 }
 .notification-list li.unread {
-  background-color: #272b2e !important;
+  background-color: #a0a0a0 !important;
 }
 .notification-list li.unread .text {
   color: #fff;
@@ -7283,6 +7283,7 @@ a.list-group-item-danger.active:focus {
 .composer {
   background: #2e3338;
   border: 1px solid rgba(0, 0, 0, 0.6);
+  border-top: 1px solid #ffffff;
 }
 .composer .title-container .title {
   background: #2e3338 !important;
@@ -7389,4 +7390,10 @@ ul.chat-list.chats-list {
 }
 .category>ul>li:not(.unread) h2 a {
   color: #999;
+}
+[component=post] .content .plugin-mentions-a, [component=post] .content a {
+  color: #f44336;
+}
+.ns-spoiler a {
+  color: #fff;
 }
