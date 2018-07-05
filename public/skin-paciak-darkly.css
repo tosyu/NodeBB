@@ -7142,3 +7142,7 @@ a.list-group-item-danger.active:focus {
 .ns-spoiler-control a {
   padding: 2px 8px;
 }
+.btn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
