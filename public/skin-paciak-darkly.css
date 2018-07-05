@@ -7139,3 +7139,6 @@ a.list-group-item-danger.active:focus {
 .cookie-consent {
   background-color: #464545;
 }
+.ns-spoiler-control a {
+  padding: 2px 8px;
+}
