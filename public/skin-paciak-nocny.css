@@ -7395,6 +7395,6 @@ ul.chat-list.chats-list {
   color: #f44336;
 }
 .ns-spoiler a {
-  color: #fff;
+  color: #fff !important;
 }
 
