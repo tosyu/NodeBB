@@ -4710,7 +4710,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #ffffff;
 }
 .breadcrumb > .active {
-  color: #999999;
+  color: #fff;
 }
 .pagination {
   display: inline-block;
@@ -7061,10 +7061,14 @@ a.list-group-item-danger.active:focus {
 .category>ul>li .tag-list .tag {
     background-color: #375a7f;
     color: #fff;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .topic [component="post/parent"] {
     background-color: #375a7f;
     color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .topic [component="post/parent"].btn:hover {
     background-color: #28415b !important;
@@ -7075,7 +7079,7 @@ a.list-group-item-danger.active:focus {
 .fc-unthemed td.fc-today {
     background-color: #375a7f;
 }
-.header .notification-list li.unread, .slideout-menu .notification-list li.unread {
+.header .notification-list li.unread, .slideout-menu .notification-list li.unread, .notifications-list li.unread {
     background-color: #375a7f;
 }
 .account .profile .profile-meta strong {
@@ -7145,4 +7149,8 @@ a.list-group-item-danger.active:focus {
 .btn {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.topic .stats {
+  margin: 5px 10px 0px 10px !important;
+  line-height: 15px !important;
 }
