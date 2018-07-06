@@ -7400,4 +7400,34 @@ ul.chat-list.chats-list {
 .ns-spoiler a {
   color: #fff !important;
 }
-
+.emoji-dialog {
+  background-color: #2e3338;
+  border: 1px solid #fff;
+}
+.emoji-tabs {
+  background-color: #2e3338;
+}
+.emoji-dialog .top-bar {
+  background-color: #2e3338;
+}
+.emoji-tabs .nav-tabs {
+  background-color: #2e3338 !important;
+  position: relative;
+}
+.emoji-tabs .emoji-dialog-search-container {
+  display: block;
+}
+.emoji-tabs .emoji-dialog-search-container .emoji-dialog-search {
+  color: #fff;
+  display: inline-block;
+  width:90%;
+  background-color: #2e3338;
+  border: 1px solid #fff;
+}
+.emoji-tabs .emoji-dialog-search-container button.close {
+  color: #fff;
+  background-color: #3a3f44;
+}
+.emoji-tabs .emoji-dialog-search-container button.close:hover {
+  background-color: #232628;
+}
