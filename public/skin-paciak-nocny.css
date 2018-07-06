@@ -4710,7 +4710,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #cccccc;
 }
 .breadcrumb > .active {
-  color: #7a8288;
+  color: #fff;
 }
 .pagination {
   display: inline-block;
@@ -7264,17 +7264,20 @@ a.list-group-item-danger.active:focus {
 .panel-info .panel-heading {
   border-color: #000;
 }
-.notification-list .text {
+.notification-list .text, .notifications-list .text {
   color: #888;
 }
-.notification-list li.unread {
-  background-color: #a0a0a0 !important;
+.notification-list li.unread, .notifications-list li.unread {
+  background-color: #979797 !important;
 }
 .notification-list li.unread .text {
   color: #fff;
 }
 .notification-list li.unread .mark-read {
   color: #fff;
+}
+.notifications-list li {
+  background-color: #3a3f44 !important;
 }
 .category>ul>li .tag-list .tag {
   color: #a7a7a7 !important ;
