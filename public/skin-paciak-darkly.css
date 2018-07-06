@@ -7172,6 +7172,7 @@ a.list-group-item-danger.active:focus {
   display: block;
 }
 .emoji-tabs .emoji-dialog-search-container .emoji-dialog-search {
+  color: #fff;
   display: inline-block;
   width:90%;
   background-color: #464545;
