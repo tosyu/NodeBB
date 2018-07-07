@@ -7080,7 +7080,7 @@ a.list-group-item-danger.active:focus {
     background-color: #375a7f;
 }
 .header .notification-list li.unread, .slideout-menu .notification-list li.unread, .notifications-list li.unread {
-    background-color: #375a7f;
+    background-color: #375a7f !important;
 }
 .account .profile .profile-meta strong {
     color: #00bc8c;
