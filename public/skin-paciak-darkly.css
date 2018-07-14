@@ -1391,7 +1391,7 @@ a.bg-success:focus {
   background-color: #008966;
 }
 .bg-info {
-  background-color: #3498db;
+  background-color: #3498db !important;
 }
 a.bg-info:hover,
 a.bg-info:focus {
