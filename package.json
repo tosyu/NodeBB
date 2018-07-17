@@ -68,7 +68,7 @@
     "nodebb-plugin-carton": "^1.0.2",
     "nodebb-plugin-composer-default": "6.0.19",
     "nodebb-plugin-dbsearch": "2.0.13",
-    "nodebb-plugin-desktop-notifications": "^0.3.2",
+    "nodebb-plugin-desktop-notifications": "PaciakPL/nodebb-plugin-desktop-notifications",
     "nodebb-plugin-emoji": "^2.2.3",
     "nodebb-plugin-emoji-android": "2.0.0",
     "nodebb-plugin-emoji-apple": "^2.0.0",
