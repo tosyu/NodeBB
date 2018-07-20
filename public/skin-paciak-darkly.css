@@ -7196,5 +7196,5 @@ a.list-group-item-danger.active:focus {
   margin-top: 4px !important;
 }
 .header #user_dropdown {
-  padding-top: 16px !important;
+  padding: 15px 15px !important;
 }
