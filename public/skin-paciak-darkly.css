@@ -7198,3 +7198,8 @@ a.list-group-item-danger.active:focus {
 .header #user_dropdown {
   padding: 15px 15px !important;
 }
+.topic .posts .content .pointer {
+  background-color: #375a7f !important;
+  color: #fff !important;
+  border: 1px solid #375a7f !important;
+}
