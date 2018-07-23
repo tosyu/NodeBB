@@ -651,9 +651,11 @@ describe('Categories', function () {
 					'topics:tag': false,
 					'topics:delete': false,
 					'posts:edit': false,
+					'posts:history': false,
 					'posts:upvote': false,
 					'posts:downvote': false,
 					purge: false,
+					'posts:view_deleted': false,
 					moderate: false,
 				});
 
@@ -685,6 +687,7 @@ describe('Categories', function () {
 				assert.deepEqual(data, {
 					'groups:find': true,
 					'groups:posts:edit': true,
+					'groups:posts:history': true,
 					'groups:posts:upvote': true,
 					'groups:posts:downvote': true,
 					'groups:topics:delete': false,
@@ -695,6 +698,7 @@ describe('Categories', function () {
 					'groups:read': true,
 					'groups:topics:read': true,
 					'groups:purge': false,
+					'groups:posts:view_deleted': false,
 					'groups:moderate': false,
 				});
 
