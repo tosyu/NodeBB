@@ -7431,3 +7431,15 @@ ul.chat-list.chats-list {
 .emoji-tabs .emoji-dialog-search-container button.close:hover {
   background-color: #232628;
 }
+.plugin-calendar-event .plugin-calendar-event-responses .plugin-calendar-event-responses-lists .panel-heading a {
+  color: #fff !important;
+}
+.plugin-calendar-event .plugin-calendar-event-responses .plugin-calendar-event-responses-lists .panel-heading a:hover {
+  text-decoration: underline !important;
+}
+.plugin-calendar-event .plugin-calendar-event-date>a {
+  color: #c8c8c8 !important;
+}
+.topic .posts .content .pointer {
+  color: #000 !important;
+}
