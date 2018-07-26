@@ -82,6 +82,7 @@
         "nodebb-plugin-lightbox": "PaciakPL/nodebb-plugin-lightbox",
         "nodebb-plugin-markdown": "8.4.4",
         "nodebb-plugin-mentions": "2.2.8",
+        "nodebb-plugin-ns-awards": "PaciakPL/nodebb-plugin-ns-awards",
         "nodebb-plugin-ns-custom-fields": "PaciakPL/nodebb-plugin-ns-custom-fields",
         "nodebb-plugin-ns-embed": "^2.1.1",
         "nodebb-plugin-ns-spoiler": "^4.1.0",
