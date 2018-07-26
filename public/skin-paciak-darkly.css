@@ -7051,6 +7051,9 @@ a.list-group-item-danger.active:focus {
     border-color: #333;
     color: #eee;
 }
+.chats-list>li.unread {
+  background-color: #375a7f !important;
+}
 .header .chat-list>li:hover, .slideout-menu .chat-list>li:hover {
     background-color: #375a7f !important;
     color: #fff !important;
