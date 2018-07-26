@@ -159,14 +159,15 @@ SocketPosts.getReplies = function (socket, pid, callback) {
 		},
 		function (results, next) {
 			postPrivileges = results.privileges;
-			results.posts = results.posts.filter(function (postData, index) {
-				return postData && postPrivileges[index].read;
-			});
+
 			topics.addPostData(results.posts, socket.uid, next);
 		},
 		function (postData, next) {
-			postData.forEach(function (postData) {
-				posts.modifyPostByPrivilege(postData, postPrivileges.isAdminOrMod);
+			postData.forEach(function (postData, index) {
+				posts.modifyPostByPrivilege(postData, postPrivileges[index]);
+			});
+			postData = postData.filter(function (postData, index) {
+				return postData && postPrivileges[index].read;
 			});
 			next(null, postData);
 		},
