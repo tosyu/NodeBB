@@ -7447,3 +7447,13 @@ ul.chat-list.chats-list {
 .topic .posts .content .pointer {
   color: #000 !important;
 }
+.ns-awards-overview__item {
+  margin: 0px !important;
+  border-bottom: 1px solid #337ab7 !important;
+}
+.ns-awards-overview__item .ns-awards-overview__image {
+  margin: 10px !important;
+}
+.ns-awards-overview__user {
+  background: none !important;
+}

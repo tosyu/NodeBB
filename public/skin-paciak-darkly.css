@@ -7212,3 +7212,13 @@ a.list-group-item-danger.active:focus {
 .plugin-calendar-event .plugin-calendar-event-responses .plugin-calendar-event-responses-lists .panel-heading a:hover {
   text-decoration: underline !important;
 }
+.ns-awards-overview__item {
+  margin: 0px !important;
+  border-bottom: 1px solid #0ce3ac !important;
+}
+.ns-awards-overview__item .ns-awards-overview__image {
+  margin: 10px !important;
+}
+.ns-awards-overview__user {
+  background: none !important;
+}
