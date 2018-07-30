@@ -7457,3 +7457,6 @@ ul.chat-list.chats-list {
 .ns-awards-overview__user {
   background: none !important;
 }
+.posts-list .posts-list-item .topic-title {
+  color: #c8c8c8 !important;
+}

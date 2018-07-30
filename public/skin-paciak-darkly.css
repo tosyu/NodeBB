@@ -7222,3 +7222,6 @@ a.list-group-item-danger.active:focus {
 .ns-awards-overview__user {
   background: none !important;
 }
+.posts-list .posts-list-item .topic-title {
+  color: #337ab7 !important;
+}
