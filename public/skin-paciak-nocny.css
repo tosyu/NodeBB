@@ -7371,6 +7371,9 @@ ul.chat-list.chats-list {
   color: #272b30;
   background-color: #c8c8c8 !important;
 }
+.chats-full [component="chat/composer"] [component="chat/input"] {
+  color: #c8c8c8;
+}
 .fc td.fc-today {
   background: #1d2024;
 }
