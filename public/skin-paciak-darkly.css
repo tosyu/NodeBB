@@ -7225,3 +7225,25 @@ a.list-group-item-danger.active:focus {
 .posts-list .posts-list-item .topic-title {
   color: #337ab7 !important;
 }
+@media (max-width: 991px) {
+  html.composing body {
+    overflow-y: scroll;
+    height: 30%;
+    padding-bottom: 50vh !important;
+  }
+  html.composing .composer {
+    position: fixed;
+    top: 50%;
+    height: 50%;
+  }
+  .composer .category-selector.open {
+    height: calc(50% - 43px);
+  }
+  .navbar.header.hidden {
+    display: block !important;
+  }
+  .composer .category-selector {
+    max-height: calc(50% - 43px)
+  }
+}
+
