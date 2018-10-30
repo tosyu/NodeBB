@@ -7467,20 +7467,22 @@ ul.chat-list.chats-list {
   html.composing body {
     overflow-y: scroll;
     height: 30%;
-    padding-bottom: 50vh !important;
+    padding-top: 50vh !important;
   }
   html.composing .composer {
     position: fixed;
-    top: 50%;
+    top: 0px;
     height: 50%;
   }
   .composer .category-selector.open {
     height: calc(50% - 43px);
+    top: 43px;
   }
   .navbar.header.hidden {
     display: block !important;
   }
   .composer .category-selector {
     max-height: calc(50% - 43px)
+    transition: transform .0s,visibility 0s .0s,-webkit-transform .0s !important;
   }
 }
