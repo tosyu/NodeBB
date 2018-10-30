@@ -141,12 +141,21 @@ function buildTargets(targets, parallel, callback) {
 	}, callback);
 }
 
-function build(targets, callback) {
+function build(targets, options, callback) {
+	if (!callback && typeof options === 'function') {
+		callback = options;
+		options = {};
+	} else if (!options) {
+		options = {};
+	}
+
 	if (targets === true) {
 		targets = allTargets;
 	} else if (!Array.isArray(targets)) {
 		targets = targets.split(',');
 	}
+
+	var parallel = !nconf.get('series') && !options.series;
 
 	targets = targets
 		// get full target name
@@ -207,7 +216,6 @@ function build(targets, callback) {
 				require('./minifier').maxThreads = threads - 1;
 			}
 
-			var parallel = !nconf.get('series');
 			if (parallel) {
 				winston.info('[build] Building in parallel mode');
 			} else {

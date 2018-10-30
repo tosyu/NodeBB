@@ -1,12 +1,12 @@
 {
-    "username-email": "Username / Email",
-    "username": "Username",
-    "email": "Email",
-    "remember_me": "Remember Me?",
-    "forgot_password": "Forgot Password?",
-    "alternative_logins": "Alternative Logins",
-    "failed_login_attempt": "Login Unsuccessful",
-    "login_successful": "You have successfully logged in!",
-    "dont_have_account": "Don't have an account?",
-    "logged-out-due-to-inactivity": "You have been logged out of the Admin Control Panel due to inactivity"
+    "username-email": "Lietotājvārds / e-pasta adrese",
+    "username": "Lietotājvārds",
+    "email": "E-pasta adrese",
+    "remember_me": "Atcerēties mani?",
+    "forgot_password": "Aizmirsi paroli?",
+    "alternative_logins": "Alternatīvie lietotājvārdi",
+    "failed_login_attempt": "Tev ielogoties neveiksmējās",
+    "login_successful": "Tu esi veiksmīgi ielogojies!",
+    "dont_have_account": "Tev nav konta?",
+    "logged-out-due-to-inactivity": "Neaktivitātes dēļ Tu esi bijis izlogots no administrācijas vadības paneļa"
 }
