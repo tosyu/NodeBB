@@ -7465,13 +7465,9 @@ ul.chat-list.chats-list {
 @media (max-width: 991px) {
   html.composing body {
     overflow-y: scroll;
-    height: 30%;
-    padding-top: 50vh !important;
   }
   html.composing .composer {
     position: fixed;
-    top: 0px;
-    height: 50%;
   }
   .composer .category-selector.open {
     height: calc(50% - 43px);
@@ -7481,7 +7477,7 @@ ul.chat-list.chats-list {
     display: block !important;
   }
   .composer .category-selector {
-    max-height: calc(50% - 43px)
+    max-height: calc(50% - 43px);
     transition: transform .0s,visibility 0s .0s,-webkit-transform .0s !important;
   }
 }
