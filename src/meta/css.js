@@ -13,12 +13,6 @@ var minifier = require('./minifier');
 
 var CSS = module.exports;
 
-var staticCssFiles = [
-	'public/skin-paciak-dzienny.css',
-	'public/skin-paciak-nocny.css',
-        'public/skin-paciak-darkly.css'
-];
-
 var buildImports = {
 	client: function (source) {
 		return '@import "./theme";\n' + source + '\n' + [
@@ -179,26 +173,4 @@ CSS.buildBundle = function (target, fork, callback) {
 			fs.writeFile(path.join(__dirname, '../../build/public', filename), bundle.code, next);
 		},
 	], callback);
-};
-
-CSS.copySkins = function (callback) {
-	var func = [];
-	staticCssFiles.forEach(function (file) {
-		func.push(function (next) {
-			var source  = path.join(__dirname, '../..', file);
-			var dest = path.join(__dirname, '../../build/public', path.basename(file));
-			fs.exists(file, function (exists) {
-				var destStream;
-				if (!exists) {
-					winston.warn('[css] File not found! ' + source);
-					next();
-				} else {
-					destStream = fs.createWriteStream(dest);
-					destStream.on('close', next);
-					fs.createReadStream(source).pipe(destStream);
-				}
-			});
-		});
-	});
-	async.waterfall(func, callback);
 };

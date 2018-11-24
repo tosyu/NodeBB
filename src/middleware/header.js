@@ -277,13 +277,7 @@ module.exports = function (middleware) {
 			}
 
 			if (skinToUse) {
-				// @TODO this is really stupid :(
-				// as skins and there urls should be in some kind of configuration file
-				if (skinToUse.indexOf('paciak') > -1) {
-					obj.bootswatchCSS = '/assets/skin-' + skinToUse + '.css';
-				} else {
-					obj.bootswatchCSS = '//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/' + skinToUse + '/bootstrap.min.css';
-				}
+				obj.bootswatchCSS = '//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/' + skinToUse + '/bootstrap.min.css';
 			}
 		}
 	}

@@ -49,14 +49,10 @@ var targetHandlers = {
 	},
 	'admin control panel styles': function (parallel, callback) {
 		meta.css.buildBundle('admin', parallel, callback);
-	},
-	'client side styles skins': function (parallel, callback) {
-		meta.css.copySkins(callback);
-	},
+	},	
 	styles: [
 		'client side styles',
 		'admin control panel styles',
-		'client side styles skins',
 	],
 	templates: function (parallel, callback) {
 		meta.templates.compile(callback);
